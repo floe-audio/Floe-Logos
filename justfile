@@ -1,5 +1,7 @@
 release:
   #!/usr/bin/env bash
+  set -euxo pipefail
+
   mkdir -p release
 
   rsvg-convert icon.svg -w 256 -h 256 -o release/icon-256px.png
@@ -21,8 +23,8 @@ release:
   fd -e png -x optipng -o5 {}
   svgo -i . -r --multipass
 
-  ln -s icon-32px.png favicon.png
-  ln -s icon-32px.svg favicon.svg
+  cp icon-32px.png favicon.png
+  cp icon-32px.svg favicon.svg
   ln -s vertical-logo.png win-installer-sidebar.png
 
   popd
