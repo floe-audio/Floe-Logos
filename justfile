@@ -28,3 +28,6 @@ release:
   ln -s -f vertical-logo.png win-installer-sidebar.png
 
   popd
+
+optimise-svgs:
+  svgo -i . -r --multipass
