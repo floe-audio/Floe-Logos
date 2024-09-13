@@ -11,6 +11,8 @@ release:
   rsvg-convert icon_transparent.svg -w 24 -h 24 -o release/icon-24px.png
   rsvg-convert icon_transparent.svg -w 16 -h 16 -o release/icon-16px.png
 
+  rsvg-convert icon_background.svg -w 512 -h 512 -o release/icon-background-512px.png
+
   rsvg-convert icon_transparent.svg -w 256 -h 256 -f svg -o release/icon-256px.svg
   rsvg-convert icon_transparent.svg -w 128 -h 128 -f svg -o release/icon-128px.svg
   rsvg-convert icon_transparent.svg -w 32 -h 32 -f svg -o release/icon-32px.svg
