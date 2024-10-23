@@ -25,6 +25,7 @@ rasterize:
   rsvg-convert horizontal_transparent.svg -o rasterized/horizontal_transparent.png
   rsvg-convert horizontal_background.svg -o rasterized/horizontal_background.png
   rsvg-convert horizontal_transparent_dark.svg -o rasterized/horizontal_transparent_dark.png
+  rsvg-convert horizontal_background.svg -w 150 -o rasterized/win-installer-sidebar.png
 
   rsvg-convert wordmark_transparent.svg -o rasterized/wordmark_transparent.png
   rsvg-convert wordmark_background.svg -o rasterized/wordmark_background.png
@@ -39,7 +40,6 @@ rasterize:
 
   cp icon-32px.png favicon.png
   cp icon-32px.svg favicon.svg
-  ln -s -f vertical-logo.png win-installer-sidebar.png
 
   popd
 
