@@ -26,6 +26,7 @@ rasterize:
   rsvg-convert horizontal_background.svg -o rasterized/horizontal_background.png
   rsvg-convert horizontal_transparent_dark.svg -o rasterized/horizontal_transparent_dark.png
   rsvg-convert horizontal_transparent_dark.svg -w 150 -o rasterized/win-installer-sidebar.png
+  rsvg-convert horizontal_transparent.svg -o rasterized/plugin-gui-logo.png
 
   rsvg-convert wordmark_transparent.svg -o rasterized/wordmark_transparent.png
   rsvg-convert wordmark_background.svg -o rasterized/wordmark_background.png
