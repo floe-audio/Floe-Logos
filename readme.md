@@ -1,8 +1,6 @@
-Copyright 2024-2025 Floe Developers. 
+Copyright 2024-2025 Floe Developers
 
-All rights are reserved, except the following permissions are granted to anyone:
-- Displaying the Floe logo to indicate compatibility or integration with Floe, where such compatibility actually exists
-- Educational and editorial content, including tutorials, articles, reviews, and documentation referencing Floe
+Licensed under [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/).
 
 ---
 
